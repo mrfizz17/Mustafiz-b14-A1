@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Common Things Below */
 
 .common-button{
@@ -79,4 +80,138 @@ header main div button{
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
+}
+section{
+    padding: 40px 8%;
+}
+.meet-speaker{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+.speaker-inner-conatiner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+   
+}
+.speaker-all-infos {
+    border: 1px solid  #f2f2f2;
+    /* background-color: #f2f2f2; */
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+}
+.spekaer-img{
+    width: 100%;
+    object-fit: cover; 
+    /* object-position: center;*/
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+.speaker-infos{
+    padding: 10px 15px;
+}
+.speaker-title{
+    color: #2563EB;
+    font-size:12px;
+    margin-bottom:5px;
+}
+.speaker-name{
+    font-size: 20px;
+}
+.speaker-role{
+    color: #575757;
+    margin-top:7px;
+    font-size: 14px;
+
+}
+.packages-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    
+}
+.package-card{
+   
+    border:1px solid #f3f3f3;
+    padding-top:20px;
+    padding-left:18px;
+    padding-right:2px;
+    padding-bottom:10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(245, 245, 245, 0.3);
+}
+.special-card{
+    border:1px solid #0D1B2A;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:2px;
+    padding-bottom:10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(245, 245, 245, 0.6);
+    color: #fff;
+    background-color: #0D1B2A;
+}
+.special-card .package-quality{
+    color: #93C5FD;
+}
+.special-card .package-user{
+    color: #979696;
+}
+
+.package-quality{
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 8px;
+}
+.package-price{
+    font-size: 44px;
+
+}
+.package-user{
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+.package-card hr{
+    color: #E5E7EB;
+    margin-bottom: 20px;
+    width:200px;
+}
+
+.package-offer {
+    padding: 0px 10px 5px 15px;
+    
+}
+.package-offer li {
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 14px;
+    
+}
+.package-offer li::marker {
+    color: #1D4ED8;
+    
+}
+.packages-title{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.packages-subtitle{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #575757;
+}
+.special-card hr{
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 10%;
+}
+.special-card .package-offer li{
+    color:#FFFFFF ;
+    opacity: 80%;
 }
