@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:14px 8%;
-    /* height: 7vh; */
+    height: 12vh;
 }
 
 nav ul{
@@ -42,7 +42,7 @@ nav ul li a {
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('./assets/banner.jpg');
-    height: 93vh;
+    height: 88vh;
     background-size: cover;
     background-position: center;
     display: flex;
