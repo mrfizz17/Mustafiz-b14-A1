@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Inter";
 }
 
 
@@ -65,7 +65,7 @@ header main h1{
 }
 header main p{
     margin-top: 20px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 20px;
     text-align: center;
     color: #c2c2c2;
@@ -77,12 +77,13 @@ header main div{
 header main div button{
    color: #1D4ED8;
    border: 1px solid #1D4ED8;
-    padding: 18px 50px;
+    padding: 18px 70px;
     font-weight: bold;
     background-color: #1D4ED8;
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 24px;
 }
 section{
     padding: 40px 8%;
@@ -101,7 +102,7 @@ section{
    
 }
 .speaker-all-infos {
-    border: 1px solid  #f2f2f2;
+    border: 1px solid  #E5E7EB;
     /* background-color: #f2f2f2; */
     box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.4);
     border-radius: 6px;
@@ -125,6 +126,7 @@ section{
 }
 .speaker-name{
     font-size: 20px;
+    color: #0D1B2A;
 }
 .speaker-role{
     color: #575757;
@@ -143,8 +145,8 @@ section{
     max-width:370px;
     border:1px solid #f3f3f3;
     padding-top:20px;
-    padding-left:18px;
-    padding-right:10px;
+    padding-left:30px;
+    padding-right:30px;
     padding-bottom:10px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(245, 245, 245, 0.3);
@@ -167,9 +169,11 @@ section{
     font-size: 13px;
     color: #888888;
     margin-bottom: 8px;
+    font-weight: 600;
 }
 .package-price{
     font-size: 44px;
+    color:#0D1B2A;
 
 }
 .package-user{
@@ -191,6 +195,7 @@ section{
     color: #333333;
     margin-bottom: 8px;
     font-size: 14px;
+    line-height: 25px;
     
 }
 .package-offer li::marker {
@@ -201,6 +206,7 @@ section{
     text-align: center;
     font-size: 48px;
     margin-bottom: 10px;
+    color: #0D1B2A;
 }
 .packages-subtitle{
     text-align: center;
@@ -211,6 +217,9 @@ section{
 .special-card hr{
     border: 1px solid rgb(255, 255, 255);
     opacity: 10%;
+}
+.special-card .package-price{
+    color: #fff;
 }
 .special-card .package-offer li{
     color:#FFFFFF ;
@@ -244,7 +253,7 @@ section{
 .card{
     background:white;
     border-radius:18px;
-    padding:22px;
+    padding:20px;
     border:1px solid #e6e6e6;
     box-shadow:0 5px 20px rgba(0,0,0,.05);
     display:flex;
@@ -380,4 +389,47 @@ form div{
 .bottom div span{
     margin-right: 10px;
     color: #888888;
+}
+.pro-btn{
+    padding: 15px 0px;
+    margin-top:20px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.standard-btn{
+    width: 100%;
+    border: 1px solid #1D4ED8;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: #1D4ED8;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: white;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.team-btn{
+    width: 100%;
+    border: 1px solid #0D1B2A;
+    padding: 15px 30px;
+    font-weight: bold;
+    color: #0D1B2A;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.team-card{
+    background-color: #F8F9FB;
+}
+.team-card .package-price{
+    color:#0D1B2A
 }
